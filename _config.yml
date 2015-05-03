@@ -13,7 +13,7 @@ domain_name: 'http://williamdenton.github.io'
 google_analytics: ''
 azure_app_insights: 'bc180032-ea25-443d-8614-e0c7c2f23635'
 disqus_shortname: 'williamdenton_blog'
-twitter: 'twitterhandle'
+twitter: 'metadenton'
 
 # Details for the RSS feed generator
 url:            'http://williamdenton.github.io'

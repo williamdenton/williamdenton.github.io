@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: William Denton
+description: Occasional Thoughts on Software, Hacking, IoT and Life
+meta_description: "William Denton is a Software developer in Auckland, New Zealand. His day job involves architecting and developing commercial websites using ASP.Net, WebAPI and MVC"
 
 socialShareImage: /assets/images/defaultsocialshareimage.gif
 
@@ -9,12 +9,12 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-azure_app_insights: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
-disqus_shortname: 'shortname'
+domain_name: 'http://williamdenton.github.io'
+google_analytics: ''
+azure_app_insights: 'bc180032-ea25-443d-8614-e0c7c2f23635'
+disqus_shortname: 'williamdenton_blog'
 twitter: 'twitterhandle'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://williamdenton.github.io'
+author:         'William Denton'

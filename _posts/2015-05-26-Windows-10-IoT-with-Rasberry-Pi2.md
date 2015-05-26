@@ -69,6 +69,7 @@ This means you can seek without powering on the radio first. This will undoubted
 
 ###Future
 I have various other sensors and breakout boards waiting for c# code to drive them
+
 * DHT11 temperature/humidity
 * Gyroscope/Compass
 * Pir Sensor

@@ -1,10 +1,6 @@
 ---
 layout: page
-title: About me 
+title: About William Denton 
 ---
 
-Well, there isn't much to see here yet. 
-
-Here's the gist of it:
-
-> William is a software developer living in Auckland, New Zealand. When not at work, he spends his time with his wife two young children riding bikes, scooters and taking big walks around the amazing Auckland parks and bushland. His day job involves architecting and developing commercial websites and services using ASP.Net, WebAPI and MVC.
+I'm a software developer living in Auckland, New Zealand. I've been building software using dotnet since 2005. I help teams build out micro-services on AWS using dotnet core. I enjoy working on tooling and improving the developer experience so teams can get started quickly and focus on whats important. 

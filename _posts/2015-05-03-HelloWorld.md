@@ -16,9 +16,6 @@ It covers off a few firsts for me:
 
 The site is hosted on [Git Hub Pages][github-pages] and is written in a mixture of html and markdown. I've been wanting to try out [Jekyll][jekyll] as a blogging platform for a while. I've tinkered before but never used it in anger. I like the idea of writing in markdown so this is a natural fit. 
 
-The plan is to occasionally write some code and share it here and in my [github repo][github-wd]. You should see some projects involving my Raspberry Pi2 and Arduino popping up soon. 
-
-
 
 [jekyll]:http://jekyllrb.com/
 [github-pages]: https://pages.github.com/

@@ -1,22 +1,20 @@
 name: William Denton
 description: Occasional Thoughts on Software, Hacking, IoT and Life
-meta_description: "William Denton is a Software developer living in Auckland, New Zealand. His day job involves architecting and developing commercial websites using ASP.Net, WebAPI and MVC"
 
 socialShareImage: /assets/images/defaultsocialshareimage.gif
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://williamdenton.github.io'
+domain_name: 'http://william.denton.nz'
 google_analytics: ''
 azure_app_insights: 'bc180032-ea25-443d-8614-e0c7c2f23635'
 disqus_shortname: 'williamdenton-blog'
-twitter: 'metadenton'
-facebook_id: '528350866'
+twitter: 'wdento'
 profile_image: '/assets/images/profile.jpg'
 
 # Details for the RSS feed generator
-url:            'http://williamdenton.github.io'
+url:            'http://william.denton.nz'
 author:         'William Denton'

@@ -15,11 +15,11 @@ All the Arduino samples I have seen rely on `delay()` or `while(true)` loops. I 
 
 Using the interrupt pin works really well with RDS which is continually updating. Decode is much more reliable with far fewer errors than constantly polling for updates.
 
-###Sample code
+### Sample code
 Last night I posted the [c# S14703 implementation][link-code] to GitHub.
 It has a *very* basic WPF interface to drive it, which at the moment requires a mouse to click the buttons.
 
-###Si4703 Features Implemented:
+### Si4703 Features Implemented:
 
 * Seek (up and down)
 * Tune (to a specific frequency)
@@ -35,7 +35,7 @@ It has a *very* basic WPF interface to drive it, which at the moment requires a 
 * Power On (obviously)
 * Power Off
 
-###Issues
+### Issues
 I would like to update the RDS decoder to handle more types of data. `AF` Alternate Frequencies appears to be broadcast in my area so this may be next.
 
 RDS `CT` (clock) decode works, but is not fully plumbed to the UI yet. 
@@ -67,7 +67,7 @@ This means you can seek without powering on the radio first. This will undoubted
 
 
 
-###Future
+### Future
 I have various other sensors and breakout boards waiting for c# code to drive them
 
 * DHT11 temperature/humidity

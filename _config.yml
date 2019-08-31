@@ -7,14 +7,14 @@ markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /
+baseurl: '/'
 domain_name: 'https://william.denton.nz'
 google_analytics: ''
 azure_app_insights: 'bc180032-ea25-443d-8614-e0c7c2f23635'
 disqus_shortname: 'williamdenton-blog'
 twitter: 'wdento'
 profile_image: '/assets/images/profile.jpg'
-permalink: /blog/:year/:title
+permalink: '/posts/:year/:title'
 
 # Details for the RSS feed generator
 url:            'https://william.denton.nz'

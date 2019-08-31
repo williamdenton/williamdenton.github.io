@@ -50,6 +50,9 @@
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
+    <link rel="stylesheet" type="text/css" href="/assets/css/highlight/default.css">
+
+
     {% include azure_app_insights.html %}
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
@@ -68,6 +71,8 @@
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
     {% include google_analytics.html %}
 </body>

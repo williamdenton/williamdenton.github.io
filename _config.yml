@@ -4,7 +4,7 @@ description: Very occasional words about building software and teams
 socialShareImage: /assets/images/defaultsocialshareimage.gif
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: '/'

@@ -141,9 +141,6 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\f602";
     font-size: 1.1em;
 }
-.icon-google-plus:before {
-    content: "\f603";
-}
 .icon-facebook:before {
     content: "\f604";
 }

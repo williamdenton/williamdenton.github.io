@@ -1,5 +1,5 @@
 name: William Denton
-description: Occasional Thoughts on Software, Hacking, IoT and Life
+description: Very occasional words about building software and teams
 
 socialShareImage: /assets/images/defaultsocialshareimage.gif
 
@@ -8,13 +8,14 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://william.denton.nz'
+domain_name: 'https://william.denton.nz'
 google_analytics: ''
 azure_app_insights: 'bc180032-ea25-443d-8614-e0c7c2f23635'
 disqus_shortname: 'williamdenton-blog'
 twitter: 'wdento'
 profile_image: '/assets/images/profile.jpg'
+permalink: /blog/:year/:title
 
 # Details for the RSS feed generator
-url:            'http://william.denton.nz'
+url:            'https://william.denton.nz'
 author:         'William Denton'

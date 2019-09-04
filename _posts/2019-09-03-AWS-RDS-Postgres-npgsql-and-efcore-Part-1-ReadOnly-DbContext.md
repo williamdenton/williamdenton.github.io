@@ -3,12 +3,14 @@ layout: post
 title:  "AWS RDS Postgres, npgsql and efcore - Part 1 - ReadOnly DbContext"
 date:   2019-09-03T21:58:00+12:00
 categories: Blog npgsql efcore dotnet aws
+socialShareImage: /assets/images/2019-09/2019-09-03-postgres-dotnet-aws.png
+cover: /assets/images/2019-09/2019-09-03-postgres-dotnet-aws.png
 disqus: true
 description: "When using Amazon Aurora RDS you typically configure your database cluster to have two or more nodes. If something bad were to happen to one of the nodes RDS automatically fails over to one of the remaining healthy nodes.
 
 Now you have a resilient database, but you are paying for servers that are sitting idle. Designing your application so you can leverage the read only replicas for running queries means you have a more resilient and scalable application than if you only make use of the master read write node.
 
-EfCore doesn't make it easy to change the connection string in a DbContext, and exposing the same DbContext in both Read only and read write modes will confuse your team and they will likely default to using the read write context as it does everything."
+EfCore doesn't make it easy to change the connection string in a DbContext..."
 ---
 
 This is the first part in a series on using dotnet core with Amazon RDS for Postres. There is a [github repo with a sample project](https://github.com/williamdenton/AwsRdsPostgresDemo) that I'll be pulling code samples from. 

@@ -2,6 +2,7 @@
 layout: post
 title:  "AWS RDS Postgres, npgsql and efcore - Part 1 - ReadOnly DbContext"
 date:   2019-09-03T21:58:00+12:00
+modified: 2019-09-05T11:45:00+12:00
 categories: Blog npgsql efcore dotnet aws
 socialShareImage: /assets/images/2019-09/2019-09-03-postgres-dotnet-aws.png
 cover: /assets/images/2019-09/2019-09-03-postgres-dotnet-aws.png
@@ -101,6 +102,21 @@ ctx.Customer...// <-- this is IQueryable
 
 Explicitly implementing the interface has the desirable side effect of making it easier to test components that depend on the `IDemoReadOnlyDbContext`. We can construct a concrete `DemoReadOnlyDbContext` populate any data the test requires into the inherited DbSet in-memory (without using `SaveChanges()`) then cast it to `IDemoReadOnlyDbContext` to query that data in our test.
 
+
+#### Disabling Tracking
+For read only queries, there is no need for entity framework to be tracking the objects you select and holding them in memory. Tracking allows Entity Framework to be able to write changes back to the database when you `SaveChanges()`. _Thanks to Julie Lerman for point this out in the comments._
+```cs
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
+	base.OnConfiguring(optionsBuilder);
+	optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+}
+```
+
+You can also disable tracking on a per table basis with the `AsNoTracking()` extension method in other situations outside of the readonly context where you dont need it.
+
+```cs
+IQueryable<Customer> IDemoReadOnlyDbContext.Customers => base.Customers.AsNoTracking();
+```
 
 ## Configuring DbContext for Dependency Injection
 
